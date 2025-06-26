@@ -10,3 +10,15 @@ function logMessage(message: string): void {
 }
 let emptyValue: null = null;
 let notAssigned: undefined = undefined;
+
+//union 
+let id: string | number;
+id = 'Hello';
+number = 123;
+
+//literal
+let role: 'admin' | 'user' | 'guest';
+role = 'admin'
+role = 'user';
+
+
