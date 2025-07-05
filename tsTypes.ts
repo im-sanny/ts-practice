@@ -66,6 +66,7 @@ function identity<T>(value: T): T {
 let num = identity<number>(123);
 let str = identity<string>('hello');
 let bool = identity<boolean>(true);
+let arr = identity<Array<number>>([1, 3, 4])
 
 //utility types
 //partial
