@@ -12,3 +12,14 @@ function hello(message: string): void {
 
 let empty: null = null;
 let und: undefined = undefined;
+
+//union
+let id1: string | number;
+
+id1 = 'Dragon';
+id1 = 20;
+
+// literal
+let role1: 'admin' | 'user' | 'guest';
+role1 = 'admin';
+role1 = 'user';
