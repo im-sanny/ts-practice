@@ -23,3 +23,16 @@ id1 = 20;
 let role1: 'admin' | 'user' | 'guest';
 role1 = 'admin';
 role1 = 'user';
+
+//type alias
+type Point1 = { x: number; y: number };
+let position1: Point1 = { x: 1, y: 2 };
+
+//interface
+interface User1 {
+  name: string;
+  age: number;
+  isAdmin: boolean;
+}
+
+let user1: User1 = { name: 'Potter', age: 69, isAdmin: true };
